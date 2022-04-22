@@ -1,0 +1,23 @@
+kind: Service
+
+apiVersion: v1
+
+metadata:
+
+  name: httpdd3
+
+spec:
+
+  selector:
+
+     run: httpdd3
+
+  ports:
+
+  - protocol: TCP
+
+    port: 80
+
+    targetPort: 80
+
+  type: LoadBalancer
