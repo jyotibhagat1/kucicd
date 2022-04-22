@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    run: httpdd3
+    run: httpd3
   name: httpd3
 spec:
   replicas: 2
